@@ -1,0 +1,15 @@
+name = "gdk_pixbuf_jll"
+uuid = "da03df04-f53b-5353-a52f-6a8b0620ced0"
+version = "2.38.2+0"
+
+[deps]
+X11_jll = "546b0b6d-9ca3-5ba2-8705-1bc1841d8479"
+JpegTurbo_jll = "aacddb02-875f-59d6-b918-886e6ef4fbf8"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+libpng_jll = "b53b4c65-9356-5827-b1ea-8c7a1a84506f"
+Libtiff_jll = "89763e89-9b03-5906-acba-b20f662cd828"
+Glib_jll = "7746bdde-850d-59dc-9ae8-88ece973131d"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+
+[compat]
+julia = "1.3"
