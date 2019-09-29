@@ -1,6 +1,6 @@
 name = "gdk_pixbuf_jll"
 uuid = "da03df04-f53b-5353-a52f-6a8b0620ced0"
-version = "2.38.2+0"
+version = "2.38.2+1"
 
 [deps]
 X11_jll = "546b0b6d-9ca3-5ba2-8705-1bc1841d8479"
