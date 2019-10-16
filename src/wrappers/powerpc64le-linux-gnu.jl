@@ -23,14 +23,14 @@ function gdk_pixbuf_query_loaders(f::Function; adjust_PATH::Bool = true, adjust_
     env_mapping = Dict{String,String}()
     if adjust_PATH
         if !isempty(get(ENV, "PATH", ""))
-            env_mapping["PATH"] = string(ENV["PATH"], ':', PATH)
+            env_mapping["PATH"] = string(PATH, ':', ENV["PATH"])
         else
             env_mapping["PATH"] = PATH
         end
     end
     if adjust_LIBPATH
         if !isempty(get(ENV, LIBPATH_env, ""))
-            env_mapping[LIBPATH_env] = string(ENV[LIBPATH_env], ':', LIBPATH)
+            env_mapping[LIBPATH_env] = string(LIBPATH, ':' ENV[LIBPATH_env])
         else
             env_mapping[LIBPATH_env] = LIBPATH
         end
