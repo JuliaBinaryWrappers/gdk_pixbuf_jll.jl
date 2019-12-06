@@ -34,15 +34,6 @@ os = "linux"
     url = "https://github.com/JuliaBinaryWrappers/gdk_pixbuf_jll.jl/releases/download/gdk_pixbuf-v2.38.2+5/gdk_pixbuf.v2.38.2.powerpc64le-linux-gnu.tar.gz"
 [[gdk_pixbuf]]
 arch = "x86_64"
-git-tree-sha1 = "f0b242d5ec70ffa192d40736c13fe0b92ef49074"
-libc = "musl"
-os = "linux"
-
-    [[gdk_pixbuf.download]]
-    sha256 = "9c52b4fc5670cf031172bf7db28317e29fd7af0fb9c286adf53e7a5814b94df0"
-    url = "https://github.com/JuliaBinaryWrappers/gdk_pixbuf_jll.jl/releases/download/gdk_pixbuf-v2.38.2+5/gdk_pixbuf.v2.38.2.x86_64-linux-musl.tar.gz"
-[[gdk_pixbuf]]
-arch = "x86_64"
 git-tree-sha1 = "621cd3bde64a7f04737f20edb608342c20cefef1"
 libc = "glibc"
 os = "linux"
@@ -111,3 +102,12 @@ os = "windows"
     [[gdk_pixbuf.download]]
     sha256 = "464bc15aa7c9e57ad10bd2ac25f01d07daf47d9000d0a1e5673413a9250d752d"
     url = "https://github.com/JuliaBinaryWrappers/gdk_pixbuf_jll.jl/releases/download/gdk_pixbuf-v2.38.2+6/gdk_pixbuf.v2.38.2.i686-w64-mingw32.tar.gz"
+[[gdk_pixbuf]]
+arch = "x86_64"
+git-tree-sha1 = "829836bf9072071821f145775f6ae67f3fc7469b"
+libc = "musl"
+os = "linux"
+
+    [[gdk_pixbuf.download]]
+    sha256 = "69c5c9a42f48f2372474b8d187575ebe9b4f33200c54216c4dc639d5e4edc355"
+    url = "https://github.com/JuliaBinaryWrappers/gdk_pixbuf_jll.jl/releases/download/gdk_pixbuf-v2.38.2+6/gdk_pixbuf.v2.38.2.x86_64-linux-musl.tar.gz"
