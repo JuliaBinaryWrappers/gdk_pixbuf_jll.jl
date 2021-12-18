@@ -1,6 +1,6 @@
 name = "gdk_pixbuf_jll"
 uuid = "da03df04-f53b-5353-a52f-6a8b0620ced0"
-version = "2.42.6+0"
+version = "2.42.6+1"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
