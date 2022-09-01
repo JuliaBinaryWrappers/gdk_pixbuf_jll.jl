@@ -1,6 +1,6 @@
 name = "gdk_pixbuf_jll"
 uuid = "da03df04-f53b-5353-a52f-6a8b0620ced0"
-version = "2.42.6+1"
+version = "2.42.8+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
@@ -17,4 +17,4 @@ Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 JLLWrappers = "1.2.0"
 julia = "1.6"
 Libtiff_jll = "4.3.0"
-Glib_jll = "2.68.1"
+Glib_jll = "2.68.3"
